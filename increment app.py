@@ -27,7 +27,7 @@ def main(page: ft.Page ):
     )
     
 if __name__== '__main__':
-    x=int(input("How do you want to see it: click 1 for web browser and 2 for simple window view: "))
+    x=int(input("Click 1 for web browser and 2 for simple window view: "))
     if x==2:
         ft.app(target= main)
     elif x==1:
