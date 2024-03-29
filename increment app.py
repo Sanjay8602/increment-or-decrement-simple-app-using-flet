@@ -18,6 +18,7 @@ def main(page: ft.Page ):
         page.update()
 
     page.add(
+       
         ft.Row(
             controls=[ft.IconButton(icon= ft.icons.REMOVE, on_click= decrement),
             text_number,
